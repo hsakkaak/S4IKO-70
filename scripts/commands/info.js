@@ -21,11 +21,11 @@ module.exports.config = {
 
 module.exports.run = async ({ api, event, args }) => {
   const adminInfo = {
-    name: "Imran Ahmed",
+    name: "SHAAHLOM ISLAM",
     city: "Dhaka, Bangladesh",
     work: "Web Developer & Bot Creator",
-    whatsapp: "wa.me/+8801689903267",
-    facebook: "https://facebook.com/Imran.Ahmed099"
+    whatsapp: "wa.me/+8801794197687",
+    facebook: "https://www.facebook.com/share/1FLNgJhkaW/"
   };
 
   const botVersion = global.config.version || "2.0.0";
@@ -48,11 +48,11 @@ module.exports.run = async ({ api, event, args }) => {
 ❖ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: 『 ${botVersion} 』
 ❖ 𝗨𝗽𝘁𝗶𝗺𝗲: 『 ${uptime} 』
 ❖ 𝗖𝗼𝗱𝗲𝗿: 『 ${adminInfo.name} 』
-❖ 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸: 『 IMRAN-API 』
+❖ 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸: 『 SHAAHLOM BOT 』
 `.trim();
 
   const imagePath = __dirname + "/cache/admin.png";
-  const imageURL = `https://graph.facebook.com/100075122837809/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`;
+  const imageURL = `https://i.imgur.com/kh4Ceb5.jpeg`;
 
   request(encodeURI(imageURL))
     .pipe(fs.createWriteStream(imagePath))
