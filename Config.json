@@ -6,7 +6,7 @@
   "premium": false,
   "BOTNAME": "SHAAHLOM-BOT",
   "EMAIL": "mdshaahlomisla50@gmail.com",
-  "PREFIX": "/",
+  "PREFIX": "!",
   "OPERATOR": [
     "",
     "61556167296208"
